@@ -1,13 +1,12 @@
 import * as React from 'react';
 import {
-  TouchableNativeFeedback,
-  TouchableOpacity,
   Platform,
   View,
   StyleProp,
   ViewStyle,
   ViewProps,
 } from 'react-native';
+import {TouchableNativeFeedback,TouchableOpacity} from 'react-native-gesture-handler';
 
 type Props = ViewProps & {
   onPress: () => void;
