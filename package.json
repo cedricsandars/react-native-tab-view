@@ -95,5 +95,10 @@
       "module",
       "typescript"
     ]
+  },
+  "dependencies": {
+    "expo-asset": "^7.0.0",
+    "expo-constants": "^7.0.1",
+    "expo-keep-awake": "^7.0.0"
   }
 }
